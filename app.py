@@ -5,7 +5,6 @@ from flask import Flask, render_template
 from flask_frozen import Freezer
 
 
-template_folder = path.abspath('./wiki')
 
 app = Flask(__name__, template_folder=template_folder)
 #app.config['FREEZER_BASE_URL'] = environ.get('CI_PAGES_URL')
